@@ -5,7 +5,7 @@ def convert_length(value, from_unit, to_unit):
         "cm": 0.01,
         "mm": 0.001,
         "mile": 1609.344,
-        "ft": 0.3048
+        "ft": 0.30480
     }
 
     return value * units[from_unit] / units[to_unit]
