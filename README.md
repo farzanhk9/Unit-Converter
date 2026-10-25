@@ -8,7 +8,7 @@ def convert_length(value, from_unit, to_unit):
         "ft": 0.3048
     }
 
-    return value * units[from_unit] / units[to_unit]0
+    return value * units[from_unit] / units[to_unit]
 
 
 def convert_weight(value, from_unit, to_unit):
